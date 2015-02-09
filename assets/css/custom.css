@@ -1,0 +1,19 @@
+.link-box:hover {
+	background-color: #464b4f
+}
+
+.link-box p {
+	color: #86878c;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+a:hover, a:focus{
+	text-decoration: none !important;
+}
+
+.horizontal-break {
+	border-top: 1px solid #464b4f;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}

@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ITS BETA - Landing Page</title>
+    <title>Noah's Tech - Home</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="assets/font-awesome-4.3.0/css/font-awesome.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
     <!-- Lato Google Font - For Theme -->        
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
     <!-- Default Theme Style -->
     <link href="assets/css/dark.css" rel="stylesheet" media="screen" id="skin">
     <!-- Theme Color  options - alizarin.css, belize-hole.css, carrot.css, turquoise.css, wisteria.css-->
     <link href="assets/css/blue.css" rel="stylesheet" media="screen" id="swatches">
+
+    <link href="assets/css/custom.css" rel="stylesheet">
     <!-- Pacifico Google Font - For Demo Purpose only -->    
     <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 
@@ -29,19 +33,19 @@
    <div class="container">
     	<div class="row">        
 			<header id="logo">
-                <div class="col-md-12 col-sm-12">
-                    <a href="#" title="its beta">noah's tech</a>
+                <div class="col-md-12 col-sm-12 wow fadeIn" data-wow-duration="2s">
+                    <a href="#" title="noah's tech">noah's tech</a>
                 </div><!--/12-->
 			</header>
 
-            <section id="marketing-text">
+            <section class="marketing-text wow fadeInRight" data-wow-duration="2s">
                 <div class="col-md-12 col-sm-12">
                 	<h1>Stay tuned, we are launching very soon...</h1>
-                    <p>ITS BETA is working hard to launch a new site that's going to revolutionize the way you do business. Leave us your email below, and we'll notify you the minute we open the doors.</p>
+                    <p>We are working hard to launch our site as soon as possible! We want to ensure that we are releasing a site that you are really going to love! Leave us your email below, and we'll notify you the minute we open the doors.</p>
                 </div><!--12-->
             </section><!--/marketing-text-->  
 
-            <section id="subscribe" class="clearfix">
+            <section id="subscribe" class="clearfix wow fadeInLeft" data-wow-duration="2s">
                 <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
                      <div class="row">
                         <form action="http://noahstech.us10.list-manage.com/subscribe/post?u=a5f9abc63ffccedf9394b05fb&amp;id=f9da9a8ee8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -58,45 +62,91 @@
                         </form>
                     </div><!--row-->
                 </div><!--/6-->
-            </section><!--subscribe-->  
-            
-         
-            <section id="features">
-                <div class="col-md-3 col-sm-3">
+            </section><!--subscribe-->
+
+            <section class="horizontal-break">
+                <div class="col-md-12 col-sm-12"></div><!--12-->
+            </section><!--/marketing-text-->  
+
+            <section class="marketing-text wow fadeIn" data-wow-delay="0.5s">
+                <div class="col-md-12 col-sm-12">
+                    <h1>Planned Features</h1>
+                </div><!--12-->
+            </section><!---/marketing-text-->  
+
+            <section id="features" class="wow fadeInUp" data-wow-delay="1s">
+                <div class="col-md-4 col-sm-4">
                     <div class="feature-box">
-                        <i class="icon icon-resize-full"></i>                            
-                        <h2>Responsive Theme</h2>
+                        <i class="fa fa-code"></i>                            
+                        <h2>Tutorials</h2>
                         <p>Talk about one of the biggest features that your new website is going to have.</p>
                     </div><!--feature-box-->
                 </div><!--/3-->
                 
-                <div class="col-md-3 col-sm-3">
+                <div class="col-md-4 col-sm-4">
                     <div class="feature-box">
-                        <i class="icon icon-flag"></i>                            
-                        <h2>Font Awesome Icons</h2>
+                        <i class="fa fa-newspaper-o"></i>                            
+                        <h2>News</h2>
                         <p>Talk about one of the biggest features that your new website is going to have.</p>
                     </div><!--feature-box-->
                 </div><!--/3-->
                 
-                <div class="col-md-3 col-sm-3">
+                <div class="col-md-4 col-sm-4">
                     <div class="feature-box">
-                        <i class="hicon icon-envelope"></i>                            
-                        <h2>Subscribe Signup Forms</h2>
-                        <p>Theme supports two different email signup forms Mail Chimp &amp; Campaign Monitor</p>
-                    </div><!--feature-box-->
-                </div><!--/3-->
-                
-                <div class="col-md-3 col-sm-3">
-                    <div class="feature-box">
-                        <i class="icon icon-font"></i>                            
-                        <h2>Google Web Fonts</h2>
+                        <i class="fa fa-folder-open"></i>                            
+                        <h2>Portfolio</h2>
                         <p>Talk about one of the biggest features that your new website is going to have.</p>
                     </div><!--feature-box-->
                 </div><!--/3-->
+                
+            </section><!--features-->
+
+            <section class="horizontal-break">
+                <div class="col-md-12 col-sm-12"></div><!--12-->
+            </section><!--/marketing-text-->  
+
+            <section class="marketing-text wow fadeIn" data-wow-delay="0.5s">
+                <div class="col-md-12 col-sm-12">
+                    <h1>While you are waiting...</h1>
+                </div><!--12-->
+            </section><!--/marketing-text-->  
+
+            <section id="features" class="wow fadeInUp" data-wow-delay="1s">
+                
+                <div class="col-md-4 col-sm-4">
+                    <a href="/blog">
+                        <div class="feature-box link-box">
+                            <i class="fa fa-pencil"></i>                            
+                            <h2>Our Blog</h2>
+                            <p>Check out our blog for in-depth updates about the developemnt of this site!</p>
+                        </div><!--feature-box-->
+                    </a>
+                </div><!--/3-->
+                
+                <div class="col-md-4 col-sm-4">
+                    <a href="/forum">
+                        <div class="feature-box link-box">
+                            <i class="fa fa-users"></i>                            
+                            <h2>Join Our Forum</h2>
+                            <p>Join our forum to become involved in our community and discuss anything tech related!</p>
+                        </div><!--feature-box-->
+                    </a>
+                </div><!--/3-->
+
+                <div class="col-md-4 col-sm-4">
+                    <a href="about.html">
+                        <div class="feature-box link-box">
+                            <i class="fa fa-server"></i>                            
+                            <h2>About Us</h2>
+                            <p>Want to know more about this website, the founder, and the hardware that runs it? Check out this page.</p>
+                        </div><!--feature-box-->
+                    </a>
+                </div><!--/3-->
+                
             </section><!--features-->
 
 			<footer>            
-                <div class="col-md-12 col-sm-12">
+                <div class="col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.5s" data-wow-offsey="150">
                 	<p class="social-text">
                         <span></span>
                         <i>For more details leading up to our launch <br/>check our below profiles</i>
@@ -107,7 +157,7 @@
                         <a href="#"><i class="fa fa-github-square"></i></a>
                         <a href="#"><i class="fa fa-square"></i></a>
                     </div>
-                    <small><i>&copy;2013 Its Beta. All rights reserved.</i></small>
+                    <small><i>&copy;2015 Noah's Tech, LLC. All rights reserved.</i></small>
                 </div><!--/12-->
             </footer>
 
@@ -118,6 +168,8 @@
     <script src="assets/js/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script type="text/javascript" src="assets/js/custom.js"></script>
     <!-- IE Input Placeholder Fix -->	
     <script src="assets/js/jquery.placeholder.js"></script>
     <script type="text/javascript">$(function(){$('input, textarea').placeholder();});</script>
