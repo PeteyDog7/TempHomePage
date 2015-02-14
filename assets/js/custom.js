@@ -12,3 +12,11 @@ wow = new WOW(
     }
   )
   wow.init();
+
+  /* Bootstrap Tooltip */
+
+$(function () {
+	$('[data-toggle="popover"]').popover({
+			//trigger: 'hover  focus'
+		});
+})
